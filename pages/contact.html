@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../styles/style.css">
+
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap-icons-1.8.1/bootstrap-icons.css">
+    
+
     
 
 </head>
@@ -15,7 +25,7 @@
     
 
 <!-- Contenedor principal GRID -->
-<div class="container">
+<div class="container-hippo">
 
 
 
@@ -69,7 +79,57 @@
 
 
     <div class="hero__contact--form">
-      <span style="background-color: chartreuse;">He visto que se pueden hacer bonitos forms en bootstrap asi que esperare hasta llegar a la clase para actualizar este formulario.</span>
+
+
+
+            <!-- Formulario Contacto Bootstrap -->
+            <form class="row g-3">
+
+          
+              <div class="col-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName">
+              </div>
+
+              <div class="col-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+
+              
+              <div class="col-12">
+                <label for="inputState" class="form-label">Language</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>English</option>
+                  <option>Spanish</option>
+                  <option>Japanese</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+
+              
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Send Newsletter
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-success">Send Message</button>
+              </div>
+            </form>
+
+
+
+
      </div>
 
 
@@ -117,7 +177,8 @@
 
 
 
-
+  <!-- Bootstrap JS -->
+  <script src="../js/bootstrap.min.js"></script>
 
 
 

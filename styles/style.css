@@ -18,14 +18,15 @@ padding: 0px;
 
 
 
-
-
-.container{ 
+.container-hippo{ 
   display:grid;
   grid-template-columns: 100vw;
   grid-template-rows: auto auto auto auto;
   grid-template-areas: "header" "hero" "main" "footer";
 }
+
+
+
 
 
 
@@ -119,6 +120,7 @@ header{
 
 .hero__contact--form{
   display: block;
+  text-align: left;
 }
 
 
@@ -150,29 +152,6 @@ header{
 }
 
 
-.bt__hero {
-	box-shadow: 0px 7px 20px -7px #36cc60;
-	background:linear-gradient(to bottom, #36cc60 5%, #07ad33 100%);
-	background-color:#36cc60;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-  font-family: 'Roboto', sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	padding:15px 32px;
-	text-decoration:none;
-  margin-top: 15px;
-}
-.bt__hero:hover {
-	background:linear-gradient(to bottom, #07ad33 5%, #36cc60 100%);
-	background-color:#07ad33;
-}
-.bt__hero:active {
-	position:relative;
-	top:1px;
-}
 
 
 /* Main Mobile Flexbox (cards)*/
